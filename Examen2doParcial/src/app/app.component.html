@@ -1,0 +1,12 @@
+<div class="container">
+  <!-- Sidebar 
+  <app-sidebar></app-sidebar>-->
+
+  <!-- app.component.html -->
+  <app-sidebar (showAll)="handleShowAll()" (showRecent)="handleShowRecent()"></app-sidebar>
+
+  <!-- Contenido principal -->
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
